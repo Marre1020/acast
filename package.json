@@ -1,0 +1,18 @@
+{
+  "name": "acast",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "jest": "^26.6.3",
+    "rss-parser": "^3.9.0",
+    "sha256-file": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "npx jest"
+  }
+}
